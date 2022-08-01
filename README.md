@@ -11,7 +11,7 @@
 
 ##  :clipboard: Descrição
 
-This is a full-stack project that store, rate and play YouTube links. It also come with e2e, integration and unit tests.
+Este é um projeto full-stack que armazena, classifica e reproduz links do YouTube. Ele também possui teste e2e, integração e de unidade. [Repositório da API](https://github.com/RubensAlgeri/projeto21-singmeasong-back)
 
 ***
 
