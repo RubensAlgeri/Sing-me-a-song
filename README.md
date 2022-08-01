@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# <p align = "center"> Sing me a Song </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+   <img width="250px" src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f399-fe0f.svg"/>
+</p>
 
-## Available Scripts
+<p align = "center">
+   <img src="https://img.shields.io/badge/author-RubensAlgeri-4dae71?style=flat-square" />
+   <img src="https://img.shields.io/github/languages/count/RubensAlgeri/projeto21-singmeasong-front?color=4dae71&style=flat-square" />
+</p>
 
-In the project directory, you can run:
+##  :clipboard: Descrição
 
-### `npm start`
+This is a full-stack project that store, rate and play YouTube links. It also come with e2e, integration and unit tests.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :computer:	 Tecnologias e Conceitos
 
-### `npm test`
+- REST APIs
+- React
+- TypeScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
 
-### `npm run build`
+## 🏁 Rodando a aplicação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Primeiro, faça o clone desse repositório na sua maquina:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/RubensAlgeri/projeto21-singmeasong-front
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Depois, dentro da pasta, rode o seguinte comando para instalar as dependencias.
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Finalizado o processo, é só inicializar o servidor
+```
+npm start
+```
+***
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Testes:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Na aplicação Back-end
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+$ npm run dev:test
+```
 
-## Learn More
+- Na aplicação Front-end
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ npm start
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Na aplicação Front-end em um segundo terminal
 
-### Analyzing the Bundle Size
+```bash
+$ npx cypress open
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+***
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+:stop_sign: Não esqueça de repetir os passos acima com o [repositório](https://github.com/RubensAlgeri/projeto21-singmeasong-back) que contem a api da aplicação, para testar o projeto por completo.
