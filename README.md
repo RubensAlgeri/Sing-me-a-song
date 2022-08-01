@@ -41,6 +41,9 @@ Finalizado o processo, é só inicializar o servidor
 ```
 npm start
 ```
+
+:stop_sign: Não esqueça de repetir os passos acima com o [repositório](https://github.com/RubensAlgeri/projeto21-singmeasong-back) que contem a api da aplicação, para testar o projeto por completo.
+
 ***
 
 ## Testes:
@@ -65,6 +68,3 @@ $ npm start
 $ npx cypress open
 ```
 
-***
-
-:stop_sign: Não esqueça de repetir os passos acima com o [repositório](https://github.com/RubensAlgeri/projeto21-singmeasong-back) que contem a api da aplicação, para testar o projeto por completo.
